@@ -5,7 +5,7 @@
 var contacts = [
   {
     name: "Jón Jónsson",
-    email: "j@jons.is",
+    email: "j@gmail.com",
     phoneNumber: "5875522",
     company: "Bóndi",
   },
@@ -28,7 +28,7 @@ function addRandomContact() {
   // Define a new contact to add contact list with a random name and email
   const contact = {
     name: randomName,
-    email: randomName + "@jons.is",
+    email: randomName + "@gmail.com",
     phoneNumber: "5875522",
     company: "Bóndi",
   };
