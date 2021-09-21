@@ -71,7 +71,7 @@ function addContactElement(contact) {
   // this would not work if we would be running this code outside a browser.
   const nameSpan = document.createElement("span");
   // Set the name of the contact in the name span
-  nameSpan.append(contact.name);
+  nameSpan.append(contact.name + " (" + contact.email + ")");
   // Set the appropriate class on the name span
   nameSpan.classList.add("name");
   // Create a new span for the delete button
